@@ -7,7 +7,11 @@
     renderingOptions: {
       stacked: true,
       histograms: true
-    }
+    },
+	body: {
+	  rowHeight: 25,
+	  rowPadding: 0.1
+	}
   };
 
   var lineupItems = null;
