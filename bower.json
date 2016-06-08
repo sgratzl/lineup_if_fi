@@ -1,0 +1,19 @@
+{
+  "name": "lineupif",
+  "version": "0.0.1",
+  "authors": [
+    "Samuel Gratzl <samuel_gratzl@gmx.at>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lineupjs": "https://github.com/Caleydo/lineup.js.git",
+    "bootstrap": "~3.3.5"
+  }
+}
