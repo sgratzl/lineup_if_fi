@@ -127,7 +127,7 @@
         r.domain = d3.extent(data, function (row) { return row[col].length === 0 ? undefined : +(row[col])});
       } else {
         var sset = d3.set(data.map(function (row) { return row[col];}));
-        if (sset.size() <= Math.max(20, data.length * 0.2)) { //at most 20 percent unique values
+        if (sset.size() <= Math.min(20, data.length * 0.2)) { //at most 20 percent unique values
           r.type = 'categorical';
           r.categories = sset.values().sort();
         }
